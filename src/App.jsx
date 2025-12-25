@@ -40,6 +40,12 @@ function App() {
           >
             Orange
           </button>
+          <button
+            className="bg-pink-400 text-white px-7 py-3 rounded-2xl  cursor-pointer"
+            onClick={() => setColor("pink")}
+          >
+            pink
+          </button>
           
         </div>
       </div>

@@ -46,7 +46,12 @@ function App() {
           >
             pink
           </button>
-          
+          <button
+            className="bg-purple-800 text-white px-7 py-3 rounded-2xl  cursor-pointer"
+            onClick={() => setColor("purple")}
+          >
+            Purple
+          </button>
         </div>
       </div>
     </div>
